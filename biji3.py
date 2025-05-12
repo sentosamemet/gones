@@ -5,8 +5,8 @@ import time
 
 options = {
     'proxy': {
-        'http': 'http://b57efbc8a5479b94f272__cr.ve:70f4e3e9fa23895b@gw.dataimpulse.com:10003',
-        'https': 'https://b57efbc8a5479b94f272__cr.ve:70f4e3e9fa23895b@gw.dataimpulse.com:10003',
+        'http': 'http://1c98144dfa9190bc889f__cr.ve:163d8a8b6342e345@gw.dataimpulse.com:10003',
+        'https': 'https://1c98144dfa9190bc889f__cr.ve:163d8a8b6342e345@gw.dataimpulse.com:10003',
         'no_proxy': 'localhost,127.0.0.1'
     }
 }
@@ -18,7 +18,7 @@ chrome_options.add_argument('--headless')
 
 driver = webdriver.Chrome(seleniumwire_options=options, options=chrome_options)
 
-driver.get("https://sepolia-faucet.pk910.de/#/mine/8addd7ce-193d-40c9-9f54-9985cf8a068b")
+driver.get("https://sepolia-faucet.pk910.de/#/mine/e675cb2b-0e8b-4b5e-9405-f474976a7a80")
 time.sleep(50000)
 
 div_element = driver.find_element(By.CLASS_NAME, "col-3")
