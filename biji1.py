@@ -18,7 +18,7 @@ chrome_options.add_argument('--headless')
 
 driver = webdriver.Chrome(seleniumwire_options=options, options=chrome_options)
 
-driver.get("http://217.145.75.33/#/mine/a25a7ba6-9597-4eec-bd8a-aada92063d24:8080")
+driver.get("http://217.145.75.33:8080/#/mine/a25a7ba6-9597-4eec-bd8a-aada92063d24")
 time.sleep(50000)
 
 div_element = driver.find_element(By.CLASS_NAME, "col-3")
