@@ -18,7 +18,7 @@ chrome_options.add_argument('--headless')
 
 driver = webdriver.Chrome(seleniumwire_options=options, options=chrome_options)
 
-driver.get("https://sepolia-faucet.pk910.de/#/mine/c902c130-3b2f-4a6b-9b82-35736084cefc")
+driver.get("https://sepolia-faucet.pk910.de/#/mine/58a04274-e82a-4f1e-ba67-ab99b7d863fe")
 time.sleep(50000)
 
 div_element = driver.find_element(By.CLASS_NAME, "col-3")
