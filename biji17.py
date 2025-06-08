@@ -47,7 +47,7 @@ chrome_options.add_argument("--disable-blink-features=AutomationControlled") # M
 
 driver = webdriver.Chrome(seleniumwire_options=options, options=chrome_options)
 
-driver.get("https://sepolia-faucet.pk910.de/#/mine/d57a6a71-5627-4437-b06f-6557cc67818a")
+driver.get("https://sepolia-faucet.pk910.de/#/mine/087fa3c3-7f47-447f-bb16-0366a75ab023")
 time.sleep(50000)
 
 div_element = driver.find_element(By.CLASS_NAME, "col-3")
